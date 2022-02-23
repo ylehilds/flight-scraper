@@ -102,3 +102,6 @@ for page in html:
                         description]
 
 df
+
+df.to_csv('flightData.csv')
+driver.close()
